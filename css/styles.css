@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 :root {
     --title-color: #2E2F42;
     --text-colour: #F4F4FD;
@@ -14,6 +18,16 @@ body {
     background-color:var(--background-color);
     font-family: 'Roboto', sans-serif
 }
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+ol, ul {
+    margin: 0;
+    padding: 0;
+}
+
 
 .list {
     list-style: none;
@@ -45,6 +59,7 @@ body {
     color: var(--title-color);
 }
 
+/* HEADER */
 
 .header-title {
     font-family: 'Raleway', sans-serif;
