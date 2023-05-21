@@ -77,9 +77,6 @@
   /* HEADER */
   
   .header {
-    position: absolute;
-    width: 1440px;
-    height: 72px;
     left: 0px;
     top: 0px;
     color: #E7E9FC;
@@ -94,6 +91,10 @@
   .header-list {
     display: flex;
     gap: 40px;
+  }
+
+  .header-link {
+    padding: 24px 0 24px;
   }
   
   .header-address {
@@ -223,13 +224,13 @@
     padding-bottom: 120px;
   }
   
-  .goal-title {
-    margin-bottom: 8px;
-  }
-  
   .goal-list {
       display: flex;
       gap: 24px;
+  }
+
+  .goal-title {
+      margin-bottom: 8px;
   }
 
   .goal-item {
@@ -285,8 +286,17 @@
     width: calc((100% - 72px) / 4);
   }
 
+  .team-name {
+    text-align: center; 
+    margin-bottom: 8px;
+  }
+
   .team-wrap {
       padding: 32px 16px 32px;
+  }
+
+  .team-text {
+    text-align: center; 
   }
   
   /* FOOTER */
@@ -371,9 +381,12 @@
   }
   
   .navigation-wrap {
-      padding: 32px 32px;
-      border: 1px solid #e7e9fc;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none; 
+    margin-bottom: 8px;
   }
+  
   /* IMAGES */
   
   .images-list {
