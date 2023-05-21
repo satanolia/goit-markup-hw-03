@@ -34,6 +34,10 @@
     margin: 0;
     padding: 0;
   }
+
+  img {
+      display: block;
+  }
   
   .container {
     width: 1158px;
@@ -73,8 +77,6 @@
   /* HEADER */
   
   .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
     position: absolute;
     width: 1440px;
     height: 72px;
@@ -82,6 +84,7 @@
     top: 0px;
     color: #E7E9FC;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-bottom: 1px solid #E7E9FC;
   }
   
   .header-navigation {
@@ -100,15 +103,17 @@
   .header-address-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0 24px;
   }
   
   .header-navigation {
     display: flex;
+    align-items: center;
   }
   
   .header-container {
     display: flex;
-    align-items: center;
+    padding: 0 15px 0 15px;
   }
   
   .header-title {
@@ -196,6 +201,7 @@
     color: #ffffff;
     background: var(--header-title-color);
     cursor: pointer;
+    border: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     display: block;
@@ -214,6 +220,7 @@
   
   .goal {
     padding-top: 120px;
+    padding-bottom: 120px;
   }
   
   .goal-title {
@@ -221,10 +228,18 @@
   }
   
   .goal-list {
-    display: flex;
-    gap: 24px;
+      display: flex;
+      gap: 24px;
+  }
+
+  .goal-item {
+    width: calc((100% - 72px) / 4)
   }
   
+  .goal-title {
+      margin-bottom: 8px;
+  }
+
   /* ABOUT */
   
   .about {
@@ -269,12 +284,16 @@
     border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) / 4);
   }
+
+  .team-wrap {
+      padding: 32px 16px 32px;
+  }
   
   /* FOOTER */
   
   .footer {
     background-color: var(--first-background-color);
-    padding: 100px 0 100px 156px;
+    padding: 100px 0 100px;
   }
   
   .footer-title {
@@ -282,7 +301,7 @@
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    display: flex;
+    display: inline-block;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -325,16 +344,23 @@
   .navigation-btn:hover {
     color: var(--background-color);
     background-color: var(--hightlight-color);
+    border: 1px solid transparent;
   }
   
   .navigation-btn:focus {
     color: var(--background-color);
     background-color: var(--hightlight-color);
+    border: 1px solid transparent;
+  }
+
+  .navigation-btn-section {
+      padding: 96px 0 120px;
   }
   
   .navigation-btn-list {
     display: flex;
     gap: 24px;
+    justify-content: center;
     padding-top: 96px;
     margin-bottom: 72px;
   }
@@ -344,6 +370,10 @@
     margin: 0 auto;
   }
   
+  .navigation-wrap {
+      padding: 32px 32px;
+      border: 1px solid #e7e9fc;
+  }
   /* IMAGES */
   
   .images-list {
@@ -355,7 +385,9 @@
   
   .images-item {
     border: 1px solid #e7e9fc;
+    width: calc((100% - 48px) / 3)
   }
+
   .secondary-title {
     margin: 32px 0 32px 8px;
   }
