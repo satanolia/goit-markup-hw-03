@@ -72,6 +72,8 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--title-color);
+    text-align: center; 
+    margin-bottom: 8px;
   }
   
   /* HEADER */
@@ -223,24 +225,15 @@
     padding-top: 120px;
     padding-bottom: 120px;
   }
-  
+
   .goal-list {
       display: flex;
-      gap: 24px;
-  }
-
-  .goal-title {
-      margin-bottom: 8px;
   }
 
   .goal-item {
     width: calc((100% - 72px) / 4)
   }
   
-  .goal-title {
-      margin-bottom: 8px;
-  }
-
   /* ABOUT */
   
   .about {
@@ -284,11 +277,6 @@
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) / 4);
-  }
-
-  .team-name {
-    text-align: center; 
-    margin-bottom: 8px;
   }
 
   .team-wrap {
@@ -386,7 +374,7 @@
     border-top: none; 
     margin-bottom: 8px;
   }
-  
+
   /* IMAGES */
   
   .images-list {
