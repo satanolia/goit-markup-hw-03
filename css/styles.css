@@ -42,6 +42,8 @@
   .container {
     width: 1158px;
     margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
   }
   
   .list {
@@ -69,18 +71,16 @@
   .secondary-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.20;
+    text-align: center;
     letter-spacing: 0.02em;
     color: var(--title-color);
-    text-align: center; 
     margin-bottom: 8px;
   }
   
   /* HEADER */
   
   .header {
-    left: 0px;
-    top: 0px;
     color: #E7E9FC;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-bottom: 1px solid #E7E9FC;
@@ -402,8 +402,3 @@
     border: 1px solid #e7e9fc;
     width: calc((100% - 48px) / 3)
   }
-
-  .secondary-title {
-    margin: 32px 0 32px 8px;
-  }
-  
