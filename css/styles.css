@@ -72,7 +72,6 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 1.20;
-    text-align: center;
     letter-spacing: 0.02em;
     color: var(--title-color);
     margin-bottom: 8px;
@@ -295,6 +294,7 @@
 
   .team-wrap {
       padding: 32px 16px 32px;
+      text-align: center;
   }
 
   .team-text {
