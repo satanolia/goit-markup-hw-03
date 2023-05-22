@@ -395,10 +395,8 @@
   
   .images-list {
     display: flex;
-    gap: 48px 24px;
+    gap: 24px;
     flex-wrap: wrap;
-    padding-bottom: 120px;
-    margin-bottom: 0;
   }
   
   .images-item {
