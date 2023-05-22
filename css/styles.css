@@ -12,7 +12,7 @@
   * {
     list-style: none;
   }
-  
+
   body {
     color: #434455;
     background-color: var(--background-color);
@@ -228,6 +228,7 @@
 
   .goal-list {
       display: flex;
+      gap: 24px;
   }
 
   .goal-item {
