@@ -395,7 +395,7 @@
   
   .images-list {
     display: flex;
-    gap: 24px;
+    gap: 48px 24px;
     flex-wrap: wrap;
   }
   
