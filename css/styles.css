@@ -359,6 +359,7 @@ img {
   background: var(--second-background-color);
   border: 1px solid #e7e9fc;
   border-radius: 4px;
+  min-width: 69px;
 }
 
 .navigation-btn:hover {
@@ -371,10 +372,6 @@ img {
   color: var(--background-color);
   background-color: var(--hightlight-color);
   border: 1px solid transparent;
-}
-
-.navigation-btn-section {
-  padding: 96px 0 120px;
 }
 
 .navigation-btn-list {
