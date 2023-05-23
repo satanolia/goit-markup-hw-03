@@ -359,7 +359,6 @@ img {
   background: var(--second-background-color);
   border: 1px solid #e7e9fc;
   border-radius: 4px;
-  min-width: 69px;
 }
 
 .navigation-btn:hover {
@@ -376,9 +375,8 @@ img {
 
 .navigation-btn-list {
   display: flex;
-  gap: 24px;
   justify-content: center;
-  padding-top: 96px;
+  gap: 24px;
   padding-left: 427px;
   padding-right: 427px;
   margin-bottom: 72px;
@@ -396,15 +394,19 @@ img {
   margin-bottom: 8px;
 }
 
+.navigation-btn-section {
+  padding: 96px 0 120px 0;
+}
+
 /* IMAGES */
 
 .images-list {
   display: flex;
   gap: 48px 24px;
   flex-wrap: wrap;
+  border: 1px solid #e7e9fc;
 }
 
 .images-item {
-  border: 1px solid #e7e9fc;
   width: calc((100% - 48px) / 3);
 }
